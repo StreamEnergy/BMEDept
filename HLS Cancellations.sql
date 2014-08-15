@@ -1,37 +1,5 @@
 
-
-SELECT  VendorCustomerNumber
-      , 'Name' = [FirstName] + ' ' + [LastName]
-      , 'Address' = [Address1] + ' ' + [Address2]
-      , [City]
-      , [State]
-      , [ZipCode]
-      , Email
-      , PrimaryPhone
-      , CustomerStatus
-      , EnrollDate
-      , CASE WHEN ProductCode = 'seidcrit01'
-             THEN 'Platinum HomeLife Services: 3 Bundle (ID, Tech, CM)'
-             WHEN ProductCode = 'seidcrit02'
-             THEN 'Platinum HomeLife Services: 3 Bundle (ID, Tech, CM) - Waive First Month Fee'
-             WHEN ProductCode = 'seidcr01'
-             THEN 'Gold HomeLife Services: 2 Bundle (ID,CM)'
-             WHEN ProductCode = 'seidcr02'
-             THEN 'Gold HomeLife Services: 2 Bundle (ID,CM) - Waive First Month Fee'
-             WHEN ProductCode = 'seidit02'
-             THEN 'Gold HomeLife Services: 2 Bundle (ID,Tech) - Waive First Month Fee'
-             WHEN ProductCode = 'seid01'
-             THEN 'Silver HomeLife Services: ID Theft (ID)'
-             WHEN ProductCode = 'seid02'
-             THEN 'Silver HomeLife Services: ID Theft (ID) - Waive First Month Fee'
-             WHEN ProductCode = 'seidcrit01'
-             THEN 'Platinum HomeLife Services: 3 Bundle (ID, Tech, CM)'
-             WHEN ProductCode = 'seidcrit02'
-             THEN 'Platinum HomeLife Services: 3 Bundle (ID, Tech, CM) - Waive First Month Fee'
-             WHEN ProductCode = 'seidcr01'
-             THEN 'Gold HomeLife Services: 2 Bundle (ID,CM)'
-             WHEN ProductCode = 'seidcr02'
-             THEN 'Gold HomeLife Services: 2 Bundle (ID,CM) - Waive First Month Fee'
+First Month Fee'
              WHEN ProductCode = 'secrit02'
              THEN 'Gold HomeLife Services: 2 Bundle (Tech, CM) - Waive First Month Fee'
              WHEN ProductCode = 'seidit01'
