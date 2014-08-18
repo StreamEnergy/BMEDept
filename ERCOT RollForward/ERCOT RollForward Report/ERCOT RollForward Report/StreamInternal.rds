@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="StreamInternal">
-  <ConnectionProperties>
-    <Extension>SQL</Extension>
-    <ConnectString>Data Source=01repldb01sc.streamgas.local;Initial Catalog=StreamInternal</ConnectString>
-    <IntegratedSecurity>true</IntegratedSecurity>
-  </ConnectionProperties>
-  <DataSourceID>5033d60a-e67f-4b46-a02e-d54346a0a005</DataSourceID>
-</RptDataSource>
